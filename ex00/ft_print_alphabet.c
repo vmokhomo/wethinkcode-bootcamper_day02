@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 void ft_putchar(char c);
-/*{
+{
 	write(1, &c, 1);
-}*/
+}
 void ft_print_alphabet(void)
 {
 	char l;
@@ -19,9 +19,10 @@ void ft_print_alphabet(void)
 		l++;
 	}
 }
-/*int main()
-{
-	ft_print_alphabet();
-
-	return(0);
-}*/
+/*	int main()
+**	{
+**		ft_print_alphabet();
+**
+**		return(0);
+**	}
+*/
